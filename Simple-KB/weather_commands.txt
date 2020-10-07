@@ -1,0 +1,8 @@
+load w.txt
+tell no_sun
+infer_all
+tell daytime
+infer_all
+infer_all
+tell very_cold white_stuff_falling
+infer_all

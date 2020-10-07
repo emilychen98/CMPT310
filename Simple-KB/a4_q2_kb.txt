@@ -1,0 +1,25 @@
+order_placed <-- address & contact_info & checkout_page & place_order_button
+address <-- house_number & street & postal_code 
+contact_info <-- first_name & last_name & email
+checkout_page <-- view_cart_page & checkout_button
+view_cart_page <-- items_in_cart & view_cart_button
+items_in_cart <-- visit_webstore & items_chosen
+visit_webstore <-- correct_url
+
+store_contact_info <-- store_hours & store_number & store_address
+shipping_page <-- shipping_link
+returns_page <-- returns_link
+faq_page <-- faq_link
+privacy_page <-- privacy_link
+about_page <-- about_link
+
+language_set <-- visit_webstore & language_selected
+
+track_order <-- your_orders_page & order_selected & track_order_button
+display_order_history <-- your_orders_page
+your_orders_page <-- account_login & your_orders_button
+
+email <-- new_email
+subscribed <-- new_email & new_password
+
+account_login <-- email & password
